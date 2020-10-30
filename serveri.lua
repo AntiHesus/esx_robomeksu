@@ -22,7 +22,6 @@ AddEventHandler('robomeksu:rahatarkistus', function()
 	xPlayer.removeMoney(price)
 
 	TriggerClientEvent('robomeksu:onnistunut', source, price)
-
 	
 else
 
